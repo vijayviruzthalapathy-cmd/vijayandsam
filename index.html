@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lena ❤️ Vijay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PASSWORD SCREEN -->
+<div id="lockScreen">
+    <h2>Enter Our Secret Date 💖</h2>
+    <input type="password" id="passwordInput" placeholder="DD.MM.YYYY">
+    <button onclick="checkPassword()">Unlock</button>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="mainContent" style="display:none;">
+
+    <h1>Lena Samyuktha 💖</h1>
+    <h2>Happy Valentine's Day Darling ma 😌</h2>
+    <p>Will you be my Valentine forever?</p>
+
+    <div class="btn-container">
+        <button id="yesBtn">YES ❤️</button>
+        <button id="noBtn">NO 😏</button>
+    </div>
+
+    <!-- SLIDESHOW -->
+    <div id="slideshow" style="display:none;">
+        <img class="slide" src="images/photo1.jpg">
+        <img class="slide" src="images/photo2.jpg">
+        <img class="slide" src="images/photo3.jpg">
+        <img class="slide" src="images/photo4.jpg">
+        <img class="slide" src="images/photo5.jpg">
+
+        <img class="slide" src="chats/chat1.jpg">
+        <img class="slide" src="chats/chat2.jpg">
+        <img class="slide" src="chats/chat3.jpg">
+    </div>
+
+    <div id="finalMessage" style="display:none;">
+        <p>
+        Inno yethana Valentine vandhalum,<br>
+        Needha ennoda one and only Valentine 💗<br><br>
+
+        Ennoda Darling Pondati Alagi ma,<br>
+        Enna rombha nalla paathukitta nee…<br><br>
+
+        Una kaalam muluka,<br>
+        Oru padi mele paathukanum 😌<br><br>
+
+        Love you Pondati ma 💗🖐<br>
+        Happy Valentines for us 🫂😘🧿
+        </p>
+    </div>
+
+</div>
+
+<audio id="bgMusic" src="audio/bg.mp3" loop></audio>
+<audio id="voiceMessage" src="audio/voice.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
